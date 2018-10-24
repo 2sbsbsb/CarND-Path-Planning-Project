@@ -30,11 +30,10 @@ I observed that few times there was an acceleration followed by deacceleration (
 <a href="https://youtu.be/ysA1ECgV5OA" target="_blank"><img src="http://img.youtube.com/vi/ysA1ECgV5OA/0.jpg" 
 alt="PID drive controller" width="240" height="180" border="10" /></a>
 
-### 2. Valid Trajectories : The car is able to drive at least 4.32 miles without incident..
-![Travel Time](https://github.com/2sbsbsb/CarND-Path-Planning-Project/blob/master/path_planning_25_miles.png)
+### 2. Valid Trajectories : The car is able to drive at least 4.32 miles without incident.
 
-CarND-Path-Planning-Project/Screen Shot 2018-10-24 at 3.57.57 AM.png
-      
+![Travel Time](https://github.com/2sbsbsb/CarND-Path-Planning-Project/blob/master/path_planning_25_miles.png)
+The car was able to travel more than 25 miles without any incidents.      
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).
