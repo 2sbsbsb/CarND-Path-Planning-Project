@@ -32,8 +32,10 @@ alt="PID drive controller" width="240" height="180" border="10" /></a>
 
 ### 2. Valid Trajectories : The car is able to drive at least 4.32 miles without incident.
 
+The car was able to travel more than 25 miles without any incidents.   
+
 ![Travel Time](https://github.com/2sbsbsb/CarND-Path-Planning-Project/blob/master/path_planning_25_miles.png)
-The car was able to travel more than 25 miles without any incidents.      
+   
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).
