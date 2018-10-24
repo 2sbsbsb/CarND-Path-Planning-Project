@@ -1,11 +1,40 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
 
-### Short Video
+### Introduction 
+The goal is to drive safely around a virtual highway without any incident.
+
+### Program
+
+
+### Prediction
+Sensor fusion data is used to predict about other vehicles. Predicted the location frenet co-ordinate (s,d) of other cars. 
+
+### Behaviour 
+The ego car (s,d) values were compared with other cars data and one of the following behaviour action was taken. 
+
+- If the car ahead is too close, change lanes if possible otherwwise de-accelerate 
+
+- Accelerate smoothly otherwise but do not cross the max speed. 
+
+### Trajectory Generation 
+
+The new trajectory is generated starting from the last two points of the previous trajectory. In case the previous trajectory is not available, we take into account the car's position. Secondly we setup three target points respectively 30, 60 and 90 meters ahead of the car. These three points helps us generating a smooth trajectory using the spline library. To make the work easier for the spline calculation, the coordinates are transformed (shift and rotation) to local car coordinates. 
+
+### Improvement 
+I observed that few times there was an acceleration followed by deacceleration (brake) without lane changes because of the car present adjacent to it. This cycle repeated several times. Clearly it is not the most efficient navigation. It can be improved by adding few new behavioural states
+
+### Output 
+
+### 1. Short Video
 <a href="https://youtu.be/ysA1ECgV5OA" target="_blank"><img src="http://img.youtube.com/vi/ysA1ECgV5OA/0.jpg" 
 alt="PID drive controller" width="240" height="180" border="10" /></a>
 
+### 2. Valid Trajectories : The car is able to drive at least 4.32 miles without incident..
+![Travel Time](https://github.com/2sbsbsb/CarND-Path-Planning-Project/blob/master/path_planning_25_miles.png)
 
+CarND-Path-Planning-Project/Screen Shot 2018-10-24 at 3.57.57 AM.png
+      
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).
