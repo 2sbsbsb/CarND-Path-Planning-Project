@@ -2,8 +2,7 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ### Short Video
-<a href="https://youtu.be/1LmMGXp08eY
-" target="_blank"><img src="http://img.youtube.com/vi/1LmMGXp08eY/0.jpg" 
+<a href="https://youtu.be/ysA1ECgV5OA" target="_blank"><img src="http://img.youtube.com/vi/ysA1ECgV5OA/0.jpg" 
 alt="PID drive controller" width="240" height="180" border="10" /></a>
 
 
