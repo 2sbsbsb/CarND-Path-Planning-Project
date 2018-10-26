@@ -24,13 +24,15 @@ The new trajectory is generated starting from the last two points of the previou
 ### Improvement 
 I observed that few times there was an acceleration followed by deacceleration (brake) without lane changes because of the car present adjacent to it. This cycle repeated several times. Clearly it is not the most efficient navigation. It can be improved by adding few new behavioural states
 
-### Output 
+### 1. Short Video ~ 3 min length 
+<a href="https://youtu.be/1LmMGXp08eY" target="_blank"><img src="http://img.youtube.com/vi/1LmMGXp08eY/0.jpg" 
+alt="PID drive controller" width="240" height="180" border="10" /></a>
 
-### 1. Short Video
+### 2. Short Video ~ 8 min length
 <a href="https://youtu.be/ysA1ECgV5OA" target="_blank"><img src="http://img.youtube.com/vi/ysA1ECgV5OA/0.jpg" 
 alt="PID drive controller" width="240" height="180" border="10" /></a>
 
-### 2. Valid Trajectories : The car is able to drive at least 4.32 miles without incident.
+### 3. Valid Trajectories : The car is able to drive at least 4.32 miles without incident.
 
 The car was able to travel more than 25 miles without any incidents.   
 
